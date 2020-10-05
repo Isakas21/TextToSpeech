@@ -18,7 +18,6 @@ class _TextScreenState extends State<TextScreen> {
     Future speak(String text, String idioma) async {
       await fluttersTts.setLanguage(idioma);
       await fluttersTts.setPitch(1);
-      print(await fluttersTts.getVoices);
       await fluttersTts.speak(text);
     }
 

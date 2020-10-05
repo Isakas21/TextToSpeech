@@ -15,9 +15,7 @@ class MyApp extends StatelessWidget {
           title: Text("Text to speech"),
         ),
         body: Container(
-          child: Column(children: <Widget>[
-            TextScreen(),
-          ]),
+          child: TextScreen(),
         ),
       ),
     );
